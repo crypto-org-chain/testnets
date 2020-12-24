@@ -11,7 +11,8 @@
           "rpc": "https://testnet-croeseid.crypto.com",
           "lcd": "https://testnet-croeseid.crypto.com:1317",
           "grpc": "https://testnet-croeseid.crypto.com:9090"
-        }
+        },
+        "genesis_sha256sum": "7346d800583f78b804862a66fda0684c723956a8110d4daf62b3880f299dc852"
     },
     "crossfire": {}
 }
