@@ -1,5 +1,6 @@
 {
     "testnet-croeseid-2": {
+        "version": "0.8.0-rc1",
         "binary": {
             "linux": "https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Linux_x86_64.tar.gz",
             "osx": "https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Darwin_x86_64.tar.gz",
