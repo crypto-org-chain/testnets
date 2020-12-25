@@ -12,7 +12,21 @@
           "lcd": "https://testnet-croeseid.crypto.com:1317",
           "grpc": "https://testnet-croeseid.crypto.com:9090"
         },
-        "genesis_sha256sum": "7346d800583f78b804862a66fda0684c723956a8110d4daf62b3880f299dc852"
+        "genesis_sha256sum": "af7c9828806da4945b1b41d434711ca233c89aedb5030cf8d9ce2d7cd46a948e"
     },
-    "crossfire": {}
+    "testnet-croeseid-1": {
+        "version": "0.7.0-rc2",
+        "binary": {
+            "linux": "https://github.com/crypto-com/chain-main/releases/download/v0.7.0-rc2/chain-main_0.7.0-rc2_Linux_x86_64.tar.gz",
+            "osx": "https://github.com/crypto-com/chain-main/releases/download/v0.7.0-rc2/chain-main_0.7.0-rc2_Darwin_x86_64.tar.gz",
+            "windows": "https://github.com/crypto-com/chain-main/releases/download/v0.7.0-rc2/chain-main_0.7.0-rc2_Windows_x86_64.zip"
+        },
+        "seeds": "66a557b8feef403805eb68e6e3249f3148d1a3f2@54.169.58.229:26656,3246d15d34802ca6ade7f51f5a26785c923fb385@54.179.111.207:26656,69c2fbab6b4f58b6cf1f79f8b1f670c7805e3f43@18.141.107.57:26656",
+        "endpoint": {
+          "rpc": "https://testnet-croeseid-1.crypto.com:26657",
+          "lcd": "https://testnet-croeseid-1.crypto.com:1317",
+          "grpc": "http://testnet-croeseid-1.crypto.com:9090"
+        },
+        "genesis_sha256sum": "863be954bf00cabca70e6840b57ef3ce02e778a26a561aff0f384431e4859ca9"
+    }
 }
