@@ -5,6 +5,7 @@ $ curl -sSL https://raw.githubusercontent.com/crypto-com/testnets/main/testnet-c
 $ sudo -u crypto /chain/reconfig.sh
 ```
 
+## Choose `1` for the `testnet-croeseid-2` network
 ```bash
 You can select the following networks to join
         0. testnet-croeseid-1
