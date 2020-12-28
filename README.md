@@ -21,4 +21,4 @@ To get started with the latest testnet, see the
 
 ### *December 30, 2020 05:30:00 UTC* - testnet-croeseid-1
 
-testnet-croeseid-1 will be updated to testnet-croeseid-2
+`testnet-croeseid-1` will be updated to `testnet-croeseid-2`
