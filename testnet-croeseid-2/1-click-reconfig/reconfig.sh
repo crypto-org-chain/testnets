@@ -161,6 +161,7 @@ CM_HOME="/chain/.chain-maind"
 CM_BINARY="/chain/bin/chain-maind"
 CM_GENESIS="$CM_HOME/config/genesis.json"
 checkout_network
+echo 'PATH=$PATH:/chain/bin' | sudo tee /etc/profile.d/custom-path.sh > /dev/null
 
 # Remove old data, generate and replace node_key
 echo_s "Reset chain-maind and remove data if any"
