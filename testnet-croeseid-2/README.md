@@ -165,8 +165,8 @@ Once it's fully synced, we are ready to join the network as a validator:
   Once the `create-validator` transaction completes, you can check if your validator has been added to the validator set:
 
   ```bash
-  $ ./chain-maind tendermint address
-  ## [tcrocnclconspub... consensus public key] ##
-  $ ./chain-maind query tendermint-validator-set | grep -c [tcrocnclconspub...]
+  $ ./chain-maind tendermint show-address
+  ## [tcrocnclcons... address] ##
+  $ ./chain-maind query tendermint-validator-set | grep -c [tcrocnclcons...]
   ## 1 = Yes; 0 = Not yet added ##
   ```
