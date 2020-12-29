@@ -24,6 +24,7 @@ Stop the `chain-maind` and download the released binaries from github:
   $ tar -zxvf chain-main_0.8.0-rc1_Linux_x86_64.tar.gz
   ```
 
+Remarks: If you have stated `chain-maind` with  systemd service, remember to stop it by  `sudo systemctl stop chain-maind`
 ### Step 2
 Using the new binary, remove the old blockchain data by running
 
