@@ -1,4 +1,7 @@
-# Upgrade from existing 1-click image
+If you have a node started earlier with the version v.0.7.\* (testnet-croeseid-1), kindly follow this instructionsand upgrade to v.0.8 (testnet-croeseid-2) with the new configuration script.
+
+
+# Obtain and run the new reconfig.sh
 
 ```bash
 $ curl -sSL https://raw.githubusercontent.com/crypto-com/testnets/main/testnet-croeseid-2/1-click-reconfig/reconfig.sh | sudo tee /chain/reconfig.sh >/dev/null
