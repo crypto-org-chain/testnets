@@ -89,6 +89,8 @@ EnableStateSync()
     LASTEST_HEIGHT=$(curl -s $RPC_SERVERS/block | jq -r .result.block.header.height)
     BLOCK_HEIGHT=$((LASTEST_HEIGHT - 1000))
     TRUST_HASH=$(curl -s "$RPC_SERVERS/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+    sed -i "s/^\(seeds\s*=\s*\).*\$/\1\"\"/" $CM_HOME/config/config.toml
+    sed -i "s/^\(persistent_peers\s*=\s*\).*\$/\1\"$SEEDS\"/" $CM_HOME/config/config.toml
     sed -i "s/^\(trust_height\s*=\s*\).*\$/\1$BLOCK_HEIGHT/" $CM_HOME/config/config.toml
     sed -i "s/^\(trust_hash\s*=\s*\).*\$/\1\"$TRUST_HASH\"/" $CM_HOME/config/config.toml
     sed -i "s/^\(enable\s*=\s*\).*\$/\1true/" $CM_HOME/config/config.toml
