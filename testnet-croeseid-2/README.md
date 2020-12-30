@@ -16,7 +16,7 @@ This is a guide for existing validator to upgrade from `testnet-croeseid-1` (v0.
 To simply the following steps, we will be using **Linux** for illustration. Binary for
 [Mac](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Darwin_x86_64.tar.gz) and [Windows](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Windows_x86_64.zip) are also available.
 
-## Step 1 - Remove the old blockchain data
+## Step 1 - Get the new binary
 
 Stop the `chain-maind` and download the released binaries from github:
 
@@ -27,7 +27,7 @@ $ tar -zxvf chain-main_0.8.0-rc1_Linux_x86_64.tar.gz
 
 Remarks: If you have stated `chain-maind` with systemd service, remember to stop it by `sudo systemctl stop chain-maind`
 
-## Step 2 - Get the new binary
+## Step 2 - Remove the old blockchain data
 
 Using the new binary, remove the old blockchain data by running
 
