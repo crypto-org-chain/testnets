@@ -18,11 +18,20 @@ To simply the following steps, we will be using **Linux** for illustration. Bina
 
 ## Step 1 - Get the new binary
 
-Stop the `chain-maind` and download the released binaries from github:
+Stop the `chain-maind` and download the released binaries from GitHub unless you did not install it via `brew`:
 
 ```bash
 $ curl -LOJ https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Linux_x86_64.tar.gz
 $ tar -zxvf chain-main_0.8.0-rc1_Linux_x86_64.tar.gz
+```
+
+OR
+
+If you installed chain-maind by using `brew` please uninstall it with running `brew uninstall chain-maind` then reinstall it `brew install chain-maind`.
+Please verify it with this commad that you have the new version:
+```bash
+$ chain-maind version
+$ 0.8.0-rc1
 ```
 
 Remarks: If you have stated `chain-maind` with systemd service, remember to stop it by `sudo systemctl stop chain-maind`
