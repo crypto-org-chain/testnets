@@ -34,6 +34,8 @@ StopService()
 # Regenerate tmkms signing key and restart tmkms service
 RegenerateTMKMS()
 {
+    echo_s "🧹  Remove old tmkms state"
+    rm -rf $TMKMS_STATE
     echo_s "🔄 Regenerate tmkms consensus-ed25519 key 🔑"
     /chain/bin/tmkms softsign keygen -t consensus $TMKMS_KEY
     rm -rf /tmp/.tmkms
@@ -178,6 +180,7 @@ fi
 # Config tmkms and regenerate signing key
 TMKMS_KEY="/chain/.tmkms/secrets/consensus-ed25519.key"
 TMKMS_SECRET="/chain/.tmkms/secrets/kms-identity.key"
+TMKMS_STATE="/chain/.tmkms/state/priv_validator_state.json"
 TMKMS_CONFIG="/chain/.tmkms/tmkms.toml"
 sed -i "s/^\(id\s*=\s*\).*\$/\1\"$NETWORK\"/;s/^\(chain_id\s*=\s*\).*\$/\1\"$NETWORK\"/;s/^\(chain_ids\s*=\s*\).*\$/\1[\"$NETWORK\"]/" $TMKMS_CONFIG
 if [[ -f "$TMKMS_KEY" ]]; then
