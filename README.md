@@ -13,7 +13,6 @@ To get started with the latest testnet, see the
 ⚠️ Latest testnet: [testnet-croeseid-2](./testnet-croeseid-2) ⚠️
 
 - *December 23, 2020 07:30:28 UTC* - [testnet-croeseid-2](./testnet-croeseid-2)
-- *Octotber 13, 2020 08:55:58 UTC* - [testnet-croeseid-1](./testnet-croeseid-1) (to be deprecated)
 
 [testnet.json](./testnet.json) lists all the existing testnets information.
 
@@ -21,4 +20,4 @@ To get started with the latest testnet, see the
 
 ### *December 30, 2020 05:30:00 UTC* - testnet-croeseid-1
 
-`testnet-croeseid-1` will be updated to `testnet-croeseid-2`
+[`testnet-croeseid-1`](./testnet-croeseid-1) was updated to [`testnet-croeseid-2`](./testnet-croeseid-2)
