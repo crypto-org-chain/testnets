@@ -1,6 +1,6 @@
 # testnet-croeseid-2
 
-- chain-maind version: [v0.8.0-rc1+](https://github.com/crypto-com/chain-main/releases)
+- chain-maind version: [v0.8.0-croeseid+](https://github.com/crypto-com/chain-main/releases)
 - Seeds:
 
 ```
@@ -14,15 +14,15 @@ d3d2139a61c2a841545e78ff0e0cd03094a5197d@18.136.230.70:26656
 This is a guide for existing validator to upgrade from `testnet-croeseid-1` (v0.7._) to `testnet-croeseid-2` (v0.8._):
 
 To simply the following steps, we will be using **Linux** for illustration. Binary for
-[Mac](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Darwin_x86_64.tar.gz) and [Windows](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Windows_x86_64.zip) are also available.
+[Mac](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-croeseid/chain-main_0.8.0-croeseid_Darwin_x86_64.tar.gz) and [Windows](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-croeseid/chain-main_0.8.0-croeseid_Windows_x86_64.zip) are also available.
 
 ## Step 1 - Get the new binary
 
 Stop the `chain-maind` and download the released binaries from github:
 
 ```bash
-$ curl -LOJ https://github.com/crypto-com/chain-main/releases/download/v0.8.0-rc1/chain-main_0.8.0-rc1_Linux_x86_64.tar.gz
-$ tar -zxvf chain-main_0.8.0-rc1_Linux_x86_64.tar.gz
+$ curl -LOJ https://github.com/crypto-com/chain-main/releases/download/v0.8.0-croeseid/chain-main_0.8.0-croeseid_Linux_x86_64.tar.gz
+$ tar -zxvf chain-main_0.8.0-croeseid_Linux_x86_64.tar.gz
 ```
 
 Remarks: If you have stated `chain-maind` with systemd service, remember to stop it by `sudo systemctl stop chain-maind`
