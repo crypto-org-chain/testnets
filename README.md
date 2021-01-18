@@ -10,9 +10,10 @@ To get started with the latest testnet, see the
 
 ## Testnet Status
 
-⚠️ Latest testnet: [testnet-croeseid-2](./testnet-croeseid-2) ⚠️
+⚠️ Latest testnet: [crossfire](./crossfire) ⚠️
 
 - *December 23, 2020 07:30:28 UTC* - [testnet-croeseid-2](./testnet-croeseid-2)
+- *January 15, 2020 07:45:50 UTC* - [crossfire](./crossfire)
 
 [testnet.json](./testnet.json) lists all the existing testnets information.
 
