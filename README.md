@@ -6,7 +6,7 @@ testnets.
 ## Getting Started
 
 To get started with the latest testnet, see the
-[docs](https://chain.crypto.com/docs/getting-started/).
+[docs](https://crypto.org/docs/getting-started/).
 
 ## Testnet Status
 
