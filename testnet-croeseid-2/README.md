@@ -75,12 +75,12 @@ Follow the below optional steps to enable state-sync.
 - (**Optional**) For state-sync configuration, in `~/.chain-maind/config/config.toml`, please modify the configurations of [statesync] `enable`, `rpc_servers`, `trust_height` and `trust_hash` by:
   Also, we suggest using persistent_peers instead of seeds to to provide stable state-sync experience.
   ```bash
-  $ LASTEST_HEIGHT=$(curl -s https://testnet-croeseid.crypto.com:26657/block | jq -r .result.block.header.height); \
+  $ LASTEST_HEIGHT=$(curl -s https://testnet-croeseid.crypto.org:26657/block | jq -r .result.block.header.height); \
   BLOCK_HEIGHT=$((LASTEST_HEIGHT - 1000)); \
-  TRUST_HASH=$(curl -s "https://testnet-croeseid.crypto.com:26657/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+  TRUST_HASH=$(curl -s "https://testnet-croeseid.crypto.org:26657/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
 
   $ sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
-  s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"https://testnet-croeseid.crypto.com:26657,https://testnet-croeseid.crypto.com:26657\"| ; \
+  s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"https://testnet-croeseid.crypto.org:26657,https://testnet-croeseid.crypto.org:26657\"| ; \
   s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
   s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
   s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" ~/.chain-maind/config/config.toml
@@ -104,7 +104,7 @@ If you have obtained the CRO testnet token before in the previous testnet, kindl
 You can also check you balance on the new testnet by:
 
 ```bash
-$ ./chain-maind q bank balances <YOUR_TCRO_ADDRESS> --node https://testnet-croeseid.crypto.com:26657
+$ ./chain-maind q bank balances <YOUR_TCRO_ADDRESS> --node https://testnet-croeseid.crypto.org:26657
 ```
 
 ### Step 4-2. Run everything
@@ -120,7 +120,7 @@ Once the `chain-maind` has been configured, we are ready to start the node and s
 Sit back and wait for the syncing process. You can check the latest block height by
 
 ```bash
-$ curl -s https://testnet-croeseid.crypto.com:26657/commit | jq "{height: .result.signed_header.header.height}"
+$ curl -s https://testnet-croeseid.crypto.org:26657/commit | jq "{height: .result.signed_header.header.height}"
 ```
 
 Once it's fully synced, we are ready to join the network as a validator:
