@@ -15,11 +15,11 @@
         "genesis_sha256sum": "074d99565111844edf1e9eb62069b7ad429484c41adcab1062447948b215c3c8"
     },
     "testnet-croeseid-2": {
-        "version": "0.8.1-croeseid",
+        "version": "0.9.1-croeseid",
         "binary": {
-            "linux": "https://github.com/crypto-com/chain-main/releases/download/v0.8.1-croeseid/chain-main_0.8.1-croeseid_Linux_x86_64.tar.gz",
-            "osx": "https://github.com/crypto-com/chain-main/releases/download/v0.8.1-croeseid/chain-main_0.8.1-croeseid_Darwin_x86_64.tar.gz",
-            "windows": "https://github.com/crypto-com/chain-main/releases/download/v0.8.1-croeseid/chain-main_0.8.1-croeseid_Windows_x86_64.zip"
+            "linux": "https://github.com/crypto-org-chain/chain-main/releases/download/v0.9.1-croeseid/chain-main_0.9.1-croeseid_Linux_x86_64.tar.gz",
+            "osx": "https://github.com/crypto-org-chain/chain-main/releases/download/v0.9.1-croeseid/chain-main_0.9.1-croeseid_Darwin_x86_64.tar.gz",
+            "windows": "https://github.com/crypto-org-chain/chain-main/releases/download/v0.9.1-croeseid/chain-main_0.9.1-croeseid_Windows_x86_64.zip"
         },
         "seeds": "b2c6657096aa30c5fafa5bd8ced48ea8dbd2b003@52.76.189.200:26656,ef472367307808b242a0d3f662d802431ed23063@175.41.186.255:26656,d3d2139a61c2a841545e78ff0e0cd03094a5197d@18.136.230.70:26656",
         "endpoint": {
