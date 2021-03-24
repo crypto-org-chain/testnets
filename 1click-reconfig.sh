@@ -81,6 +81,11 @@ EnableStateSync()
     BLOCK_HEIGHT=$((LASTEST_HEIGHT - 300))
     TRUST_HASH=$(curl -s "$RPC_SERVERS/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
     PERSISTENT_PEERS=$(curl -sS $NETWORK_JSON | jq -r ".\"$NETWORK\".persistent_peers")
+    IFS=',' read -r -a array <<< "$PERSISTENT_PEERS"
+    peer_size=${#array[@]}
+    index1=$(($RANDOM % $peer_size))
+    index2=$(($RANDOM % $peer_size))
+    PERSISTENT_PEERS="${array[$index1]},${array[$index2]}"
     sed -i "s/^\(seeds\s*=\s*\).*\$/\1\"\"/" $CM_CONFIG
     sed -i "s/^\(persistent_peers\s*=\s*\).*\$/\1\"$PERSISTENT_PEERS\"/" $CM_CONFIG
     sed -i "s/^\(trust_height\s*=\s*\).*\$/\1$BLOCK_HEIGHT/" $CM_CONFIG
