@@ -4,16 +4,16 @@
     "binary": [
       {
         "linux": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0/chain-main_2.0.0_Linux_arm64.tar.gz",
-          "checksum": "a0b0ee1dc430a19d4aff942b9b743cf3c7cbcba0eba39427b6057ec821230e68"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0-croeseid/chain-main_2.0.0-croeseid_Linux_x86_64.tar.gz",
+          "checksum": "96eed560cc17473788e640bd3cad92adb04313ba6f7a03957ab27fa0aa4c844e"
         },
         "osx": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0/chain-main_2.0.0_Darwin_x86_64.tar.gz",
-          "checksum": "4872325722c654c8347ef78f66db9c54cc5db5933d4ed1e76bc234f198e8c48d"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0-croeseid/chain-main_2.0.0-croeseid_Darwin_x86_64.tar.gz",
+          "checksum": "888171ee57f9d3c2d821df4d8553856c076fbbe006459dce9511811769fd8987"
         },
         "windows": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0/chain-main_2.0.0_Windows_x86_64.zip",
-          "checksum": "b6afea695f6b11c2e06cbeda8d8548e70168f9090600a77e2b75b373300222d7"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0-croeseid/chain-main_2.0.0-croeseid_Windows_x86_64.zip",
+          "checksum": "0cf2bedf7daa91cc1b167ba908d955e39769484d0423c5a5b2e29764a06e775c"
         },
         "version": "2.0.0-croeseid"
       }
