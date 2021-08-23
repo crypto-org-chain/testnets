@@ -1,31 +1,31 @@
 {
-  "testnet-croeseid-3": {
-    "latest_version": "2.0.0-croeseid",
+  "testnet-croeseid-4": {
+    "latest_version": "3.0.0-croeseid",
     "binary": [
       {
         "linux": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0-croeseid/chain-main_2.0.0-croeseid_Linux_x86_64.tar.gz",
-          "checksum": "96eed560cc17473788e640bd3cad92adb04313ba6f7a03957ab27fa0aa4c844e"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.0.0-croeseid/chain-main_3.0.0-croeseid_Linux_x86_64.tar.gz",
+          "checksum": "72d25d3a89321a02f992dbe596f3ed4d9774dcf30f178113ce8cbbd0637f50ec"
         },
         "osx": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0-croeseid/chain-main_2.0.0-croeseid_Darwin_x86_64.tar.gz",
-          "checksum": "888171ee57f9d3c2d821df4d8553856c076fbbe006459dce9511811769fd8987"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.0.0-croeseid/chain-main_3.0.0-croeseid_Darwin_x86_64.tar.gz",
+          "checksum": "ff198c792d8191b05b477e6c9f75e091638cf502b71ce1d2377d10a830b13342"
         },
         "windows": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v2.0.0-croeseid/chain-main_2.0.0-croeseid_Windows_x86_64.zip",
-          "checksum": "0cf2bedf7daa91cc1b167ba908d955e39769484d0423c5a5b2e29764a06e775c"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.0.0-croeseid/chain-main_3.0.0-croeseid_Windows_x86_64.zip",
+          "checksum": "ca4367dc878fdc7f7adde10d56d09fd7d26e1745f23897a991ad246b25c43eb1"
         },
-        "version": "2.0.0-croeseid"
+        "version": "3.0.0-croeseid"
       }
     ],
-    "seeds": "b2a4c8db43b815e1ed83ab4723a6af84ccb8e3e4@13.213.110.242:26656,c76d7d28141daf037bec919268d0f38e64fd8389@3.1.240.30:26656",
-    "persistent_peers": "b2a4c8db43b815e1ed83ab4723a6af84ccb8e3e4@13.213.110.242:26656,c76d7d28141daf037bec919268d0f38e64fd8389@3.1.240.30:26656",
+    "seeds": "71d2a4727bf574d5d368c343e37edff00cd556b1@52.76.52.229:26656,8af7c92277f3edce58aa828cf1026cfa74fd6569@18.141.249.17:26656",
+    "persistent_peers": "71d2a4727bf574d5d368c343e37edff00cd556b1@52.76.52.229:26656,8af7c92277f3edce58aa828cf1026cfa74fd6569@18.141.249.17:26656",
     "endpoint": {
-      "rpc": "https://testnet-croeseid-3.crypto.org:26657",
-      "lcd": "https://testnet-croeseid-3.crypto.org:1317",
-      "grpc": "https://testnet-croeseid-3.crypto.org:9090"
+      "rpc": "https://testnet-croeseid-4.crypto.org:26657",
+      "lcd": "https://testnet-croeseid-4.crypto.org:1317",
+      "grpc": "https://testnet-croeseid-4.crypto.org:9090"
     },
-    "genesis_sha256sum": "1808aef70872b306ba1af51f49b5a3ffde24e3db8c96c51f555930879f25125f",
+    "genesis_sha256sum": "28a3a7efdc291d3e5ce3ad212d55a1a4d2eb31e11fee7f007af225d258007853",
     "denom": "basetcro"
   }
 }
