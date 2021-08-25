@@ -18,7 +18,7 @@ To simply the following steps, we will be using **Linux** for illustration. Bina
 
 ## Step 1 - Get the new binary
 
-After 2021-03-01 09:00:00UTC, the node running `v0.8.1-croeseid` should stop and all you have to to is to restart your node with the new version of `chain-maind` binary -  `v0.9.1-croeseid` 
+After 2021-03-01 09:00:00UTC, the node running `v0.8.1-croeseid` should stop and all you have to do is to restart your node with the new version of `chain-maind` binary -  `v0.9.1-croeseid` 
 
 
 - Stop the `chain-maind` and download the released binaries from github:
