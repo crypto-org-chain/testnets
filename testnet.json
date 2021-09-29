@@ -1,21 +1,21 @@
 {
   "testnet-croeseid-4": {
-    "latest_version": "3.0.0-croeseid",
+    "latest_version": "3.1.1-croeseid",
     "binary": [
       {
         "linux": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.0.0-croeseid/chain-main_3.0.0-croeseid_Linux_x86_64.tar.gz",
-          "checksum": "72d25d3a89321a02f992dbe596f3ed4d9774dcf30f178113ce8cbbd0637f50ec"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1-croeseid/chain-main_3.1.1-croeseid_Linux_x86_64.tar.gz",
+          "checksum": "29ebcfe16555e1a14069031ac57133c5edf358e6d8a0ed5eda15087b17bc6042"
         },
         "osx": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.0.0-croeseid/chain-main_3.0.0-croeseid_Darwin_x86_64.tar.gz",
-          "checksum": "ff198c792d8191b05b477e6c9f75e091638cf502b71ce1d2377d10a830b13342"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1-croeseid/chain-main_3.1.1-croeseid_Darwin_x86_64.tar.gz",
+          "checksum": "33e6a0a2e987876b0d4fc4437ad410a891a9039c8eb89664abfd99ec740a3ee8"
         },
         "windows": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.0.0-croeseid/chain-main_3.0.0-croeseid_Windows_x86_64.zip",
-          "checksum": "ca4367dc878fdc7f7adde10d56d09fd7d26e1745f23897a991ad246b25c43eb1"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v3.1.1-croeseid/chain-main_3.1.1-croeseid_Windows_x86_64.zip",
+          "checksum": "720a7d6f2db997488c39ac3d9d8c12b320a388149759dbfdfcc04f4b1bbc886b"
         },
-        "version": "3.0.0-croeseid"
+        "version": "3.1.1-croeseid"
       }
     ],
     "seeds": "71d2a4727bf574d5d368c343e37edff00cd556b1@52.76.52.229:26656,8af7c92277f3edce58aa828cf1026cfa74fd6569@18.141.249.17:26656",
@@ -25,7 +25,7 @@
       "lcd": "https://testnet-croeseid-4.crypto.org:1317",
       "grpc": "https://testnet-croeseid-4.crypto.org:9090"
     },
-    "genesis_sha256sum": "28a3a7efdc291d3e5ce3ad212d55a1a4d2eb31e11fee7f007af225d258007853",
+    "genesis_sha256sum": "cf20fb923be3bc565e49a57e81a47ca969e8a973be7b3ed44e2734e369118b6c",
     "denom": "basetcro"
   }
 }
