@@ -10,9 +10,13 @@ To get started with the latest testnet, see the
 
 ## Testnet Status
 
+- _May 25, 2022 07:30:28 UTC_ - testnet-croeseid-5
+
+A new testnet [`testnet-croeseid-5`](./testnet-croeseid-5) is created, `testnet-croeseid-4` will be still running in parallel.
+
 - _Aug 19, 2021 04:44:03 UTC_ - testnet-croeseid-4
 
-A new testnet [`testnet-croeseid-4`](./testnet-croeseid-3) is created, `testnet-croeseid-3` and `testnet-croeseid-2` will be discontinued.
+A new testnet [`testnet-croeseid-4`](./testnet-croeseid-4) is created, `testnet-croeseid-3` and `testnet-croeseid-2` will be discontinued.
 
 - _May 14, 2021 04:20:00 UTC_ - testnet-croeseid-3
 
