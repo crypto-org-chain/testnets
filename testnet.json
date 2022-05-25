@@ -21,9 +21,9 @@
     "seeds": "71d2a4727bf574d5d368c343e37edff00cd556b1@13.215.245.208:26656,8af7c92277f3edce58aa828cf1026cfa74fd6569@18.138.24.24:26656",
     "persistent_peers": "71d2a4727bf574d5d368c343e37edff00cd556b1@13.215.245.208:26656,8af7c92277f3edce58aa828cf1026cfa74fd6569@18.138.24.24:26656",
     "endpoint": {
-      "rpc": "https://testnet-croeseid-5-rpc.crypto.org:443",
-      "lcd": "https://testnet-croeseid-5-rest.crypto.org",
-      "grpc": "https://testnet-croeseid-5-grpc.crypto.org"
+      "rpc": "https://rpc-c5.crypto.org:443",
+      "lcd": "https://rest-c5.crypto.org",
+      "grpc": "https://grpc-c5.crypto.org"
     },
     "genesis_sha256sum": "9a48c8bd7a682b08022ceb23798cb5b010d82b0234c029e84820455c541a3f41",
     "denom": "basetcro"
