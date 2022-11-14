@@ -1,21 +1,21 @@
 {
   "testnet-croeseid-5": {
-    "latest_version": "4.0.0-alpha3-croeseid",
+    "latest_version": "4.1.0-croeseid",
     "binary": [
       {
         "linux": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v4.0.0-alpha3-croeseid/chain-main_4.0.0-alpha3-croeseid_Linux_x86_64_croeseid.tar.gz",
-          "checksum": "55cf21ae4547f5ce024252fc04bdb7192d78cbe5f3c5039eb5cec8fb29e0cd47"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v4.1.0-croeseid/chain-main_4.1.0-croeseid_Linux_x86_64.tar.gz",
+          "checksum": "741519db1f9cc90d675d822e0865f20d1bab30d13c98c188ae3fcf51aa2c2a14"
         },
         "osx": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v4.0.0-alpha3-croeseid/chain-main_4.0.0-alpha3-croeseid_Darwin_x86_64_croeseid.tar.gz",
-          "checksum": "ba58b6803e8c3776a9e9cda4d2cb89df48c9b36b2aa9e63bfe46942109f1d06e"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v4.1.0-croeseid/chain-main_4.1.0-croeseid_Darwin_x86_64.tar.gz",
+          "checksum": "cd0729fd66eabbfaafd302dc6d48c5a009046385b5d99f4168bbffe36dd2a1b3"
         },
         "windows": {
-          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v4.0.0-alpha3-croeseid/chain-main_4.0.0-alpha3-croeseid_Windows_x86_64_croeseid.zip",
-          "checksum": "a0dfe27bbccb190e7735284a723e1266260be3dfdeffd20c6c5a16b802ddc3b3"
+          "link": "https://github.com/crypto-org-chain/chain-main/releases/download/v4.1.0-croeseid/chain-main_4.1.0-croeseid_Windows_x86_64.zip",
+          "checksum": "5a272ed8758d311427cc53904a647083426884fe3170fa17346a70a0e49fae3a"
         },
-        "version": "4.0.0-alpha3-croeseid"
+        "version": "4.1.0-croeseid"
       }
     ],
     "seeds": "71d2a4727bf574d5d368c343e37edff00cd556b1@13.215.245.208:26656,8af7c92277f3edce58aa828cf1026cfa74fd6569@18.138.24.24:26656",
@@ -25,7 +25,7 @@
       "lcd": "https://rest-c5.crypto.org",
       "grpc": "https://grpc-c5.crypto.org"
     },
-    "genesis_sha256sum": "9a48c8bd7a682b08022ceb23798cb5b010d82b0234c029e84820455c541a3f41",
+    "genesis_sha256sum": "07ee3ef2b12447605dbe20dab5fc65dc7a47a0f5f8aff251ccddd10367d62caf",
     "denom": "basetcro"
   }
 }

@@ -10,6 +10,10 @@ To get started with the latest testnet, see the
 
 ## Testnet Status
 
+- _Nov 14, 2022 05:23:12 UTC_ - testnet-croeseid-5
+
+The testnet [`testnet-croeseid-5`](./testnet-croeseid-5) is redeployed with new genesis, `testnet-croeseid-4` will be still running in parallel.
+
 - _May 25, 2022 07:30:28 UTC_ - testnet-croeseid-5
 
 A new testnet [`testnet-croeseid-5`](./testnet-croeseid-5) is created, `testnet-croeseid-4` will be still running in parallel.
@@ -18,15 +22,13 @@ A new testnet [`testnet-croeseid-5`](./testnet-croeseid-5) is created, `testnet-
 
 A new testnet [`testnet-croeseid-4`](./testnet-croeseid-4) is created, `testnet-croeseid-3` and `testnet-croeseid-2` will be discontinued.
 
-- _May 14, 2021 04:20:00 UTC_ - testnet-croeseid-3
-
-A new testnet [`testnet-croeseid-3`](./testnet-croeseid-3) is created and running parallelly with `testnet-croeseid-2`.
-
-- _December 23, 2020 07:30:28 UTC_ - [testnet-croeseid-2](./testnet-croeseid-2)
-
 [testnet.json](./testnet.json) lists all the existing testnets information.
 
 ## Legacy Testnet
+
+### _Aug 19, 2021 04:44:03 UTC_ - testnet-croeseid-3
+
+[`testnet-croeseid-3`](./testnet-croeseid-3) Network halted
 
 ### _March 19, 2021 17:55:59 UTC_ - crossfire
 

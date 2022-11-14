@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-05-24T07:30:28.471888Z",
+  "genesis_time": "2022-11-14T05:23:12.597462Z",
   "chain_id": "testnet-croeseid-5",
   "initial_height": "1",
   "consensus_params": {
@@ -33,21 +33,21 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tcro1qcjpxfejew5aan0cpj06vjte99zx63fj2keme8",
+          "address": "tcro10wrr206d6ydlemwnrkprsyjaz6dzfjs66x6hxz",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tcro1g3hs867w62nz8amqgmtmrq40vne8xl69zdshe8",
+          "address": "tcro1rgmqscnzs3ae6368r5eycz2m6t82hgafugkgcg",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tcro1ar4275zc7zc28axmzhpskn7xms9wwyh923xu6e",
+          "address": "tcro17xzd9h4007j4v8f4k7vn57f7jy8wg8mjsp3d0l",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -56,7 +56,7 @@
           "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "tcro1kr0wk72350qrnjwt2r6zqkw2x8h3e8afff30jr",
+              "address": "tcro1zduw4prec5m4qx8p63e2dan8h0rqjs7xuvf44l",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -69,19 +69,19 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1654587028"
+            "end_time": "1669612992"
           }
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tcro1504elqxke3478eyjhdp37tx98m0536zaxyeqgg",
+          "address": "tcro1dkv792249rwpdu70vwhfg2c5wqymffenu4uauz",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tcro1x2m2x5kn9lx6l2nh2hkftl2lnp8676dg7xc40m",
+          "address": "tcro1959qzcvqp45e2e995vpex3m49e465hpaym9kvk",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -98,7 +98,16 @@
       },
       "balances": [
         {
-          "address": "tcro1qcjpxfejew5aan0cpj06vjte99zx63fj2keme8",
+          "address": "tcro1zduw4prec5m4qx8p63e2dan8h0rqjs7xuvf44l",
+          "coins": [
+            {
+              "denom": "basetcro",
+              "amount": "100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tcro1rgmqscnzs3ae6368r5eycz2m6t82hgafugkgcg",
           "coins": [
             {
               "denom": "basetcro",
@@ -107,7 +116,7 @@
           ]
         },
         {
-          "address": "tcro1x2m2x5kn9lx6l2nh2hkftl2lnp8676dg7xc40m",
+          "address": "tcro1959qzcvqp45e2e995vpex3m49e465hpaym9kvk",
           "coins": [
             {
               "denom": "basetcro",
@@ -116,7 +125,16 @@
           ]
         },
         {
-          "address": "tcro1g3hs867w62nz8amqgmtmrq40vne8xl69zdshe8",
+          "address": "tcro1dkv792249rwpdu70vwhfg2c5wqymffenu4uauz",
+          "coins": [
+            {
+              "denom": "basetcro",
+              "amount": "100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "tcro10wrr206d6ydlemwnrkprsyjaz6dzfjs66x6hxz",
           "coins": [
             {
               "denom": "basetcro",
@@ -125,25 +143,7 @@
           ]
         },
         {
-          "address": "tcro1504elqxke3478eyjhdp37tx98m0536zaxyeqgg",
-          "coins": [
-            {
-              "denom": "basetcro",
-              "amount": "100000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tcro1kr0wk72350qrnjwt2r6zqkw2x8h3e8afff30jr",
-          "coins": [
-            {
-              "denom": "basetcro",
-              "amount": "100000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tcro1ar4275zc7zc28axmzhpskn7xms9wwyh923xu6e",
+          "address": "tcro17xzd9h4007j4v8f4k7vn57f7jy8wg8mjsp3d0l",
           "coins": [
             {
               "denom": "basetcro",
@@ -173,7 +173,9 @@
           "base": "basetcro",
           "display": "tcro",
           "name": "Crypto.org Chain",
-          "symbol": "CRO"
+          "symbol": "CRO",
+          "uri": "",
+          "uri_hash": ""
         }
       ]
     },
@@ -211,71 +213,11 @@
       "fee_enabled_channels": [],
       "forward_relayers": [],
       "identified_fees": [],
-      "registered_relayers": []
+      "registered_counterparty_payees": [],
+      "registered_payees": []
     },
     "genutil": {
       "gen_txs": [
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "node0",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "tcro1qcjpxfejew5aan0cpj06vjte99zx63fj2keme8",
-                "validator_address": "tcrocncl1qcjpxfejew5aan0cpj06vjte99zx63fjlf6zpy",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "j/Uu8bSHmK9jZa4tnldyNR4mwXoiiD4XtEK8Aqx6J60="
-                },
-                "value": {
-                  "denom": "basetcro",
-                  "amount": "500000000000000"
-                }
-              }
-            ],
-            "memo": "097c42ee68f1897d9bec12b7a4a00cacfb2a8ae1@10.10.5.10:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A1L+C3ZvaM8q0ImkXQwrajTUjweaRRQ6pqsSueT1sLbp"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "Bl7JobpfyHs8wGz6i8yrtasuy8r/Om99mS6IJI6Go7p0TneSqZk1BHNlM8GAVFwtyeSLRxrDC8hDSHmiQMGXog=="
-          ]
-        },
         {
           "body": {
             "messages": [
@@ -294,11 +236,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "tcro1g3hs867w62nz8amqgmtmrq40vne8xl69zdshe8",
-                "validator_address": "tcrocncl1g3hs867w62nz8amqgmtmrq40vne8xl69hjnwpy",
+                "delegator_address": "tcro1rgmqscnzs3ae6368r5eycz2m6t82hgafugkgcg",
+                "validator_address": "tcrocncl1rgmqscnzs3ae6368r5eycz2m6t82hgaffh43qt",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "2W68fj1kC0zQPoFyz2TWkrOEOh1ma9Se0HqyvYcFcWw="
+                  "key": "BRENBgjscTnKakMDl94FN3t0qzuRHHqqaZao+P+Bcnc="
                 },
                 "value": {
                   "denom": "basetcro",
@@ -306,7 +248,7 @@
                 }
               }
             ],
-            "memo": "4b3751ba800f4a351632491997129dcd58bf7405@10.10.5.10:26656",
+            "memo": "20bff0382eaec4de30b8b0a1bcdb22b33e0088fd@192.168.1.42:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -316,7 +258,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Au/Vt6+RjG3qtcsGEYsijCaYfaJqo0OkGRQoH/3pCASv"
+                  "key": "A0EAA7OM6pSPa0pxKPa85KGXBoapoIEb4uekD3KTeekd"
                 },
                 "mode_info": {
                   "single": {
@@ -331,10 +273,73 @@
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
-            }
+            },
+            "tip": null
           },
           "signatures": [
-            "mdPyZtx1Vrw3zGMgIHDtfc31+wHewGF/u/Y1X41KsBAftkM44HepJVeqsn34jKh2mLeqJ7Zg8cB21Lufvz4ylg=="
+            "p7tD8VZHgKyUS516DCwcR1a7vbdniCKsYJIuybo6OqE+lzaEuUKbqXibP49gVNxvntL12yqJYzAhl3TNEOUJMA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "node0",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tcro10wrr206d6ydlemwnrkprsyjaz6dzfjs66x6hxz",
+                "validator_address": "tcrocncl10wrr206d6ydlemwnrkprsyjaz6dzfjs60eew7p",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "jCEjCnZLkQYi2n+S/+TBZpu/VF6udhAgZXx7Cz5BEO0="
+                },
+                "value": {
+                  "denom": "basetcro",
+                  "amount": "500000000000000"
+                }
+              }
+            ],
+            "memo": "5c22bd532c6597010d8ff5c3bfada409b1f7e8c7@192.168.1.42:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Amf2sqdEPa0uKL5sE7aA0EMxgGrjMYaJFpTsWNxB/VOv"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "xw2dLZLuoY27DBxYzGL0K31dL+PVguQqfgMjUW2TsTsFxS41ad26uJU0hAwnbaEVNSNf/0XWwum5frYrzhgW2g=="
           ]
         },
         {
@@ -355,11 +360,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "tcro1ar4275zc7zc28axmzhpskn7xms9wwyh923xu6e",
-                "validator_address": "tcrocncl1ar4275zc7zc28axmzhpskn7xms9wwyh9lw99z6",
+                "delegator_address": "tcro17xzd9h4007j4v8f4k7vn57f7jy8wg8mjsp3d0l",
+                "validator_address": "tcrocncl17xzd9h4007j4v8f4k7vn57f7jy8wg8mj97j5hu",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "UkayuQV0XtmMqOJO2wxmDkhS//NvpOGjwBAlcqKppdg="
+                  "key": "w2SOLDx9wimVLS068qZFJ+3V+Do+nN52o8Qt9q3a07s="
                 },
                 "value": {
                   "denom": "basetcro",
@@ -367,7 +372,7 @@
                 }
               }
             ],
-            "memo": "bd8c1ab980af1b8de72a73d4123f47f9cc03b8dc@10.10.5.10:26656",
+            "memo": "719c00b96308d555a279aa22dc1d45f45b5bf1c2@192.168.1.42:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -377,7 +382,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AhCLIC+7f2Jqe950zlw4qevJevzquwpxEpAKrRz5BAsr"
+                  "key": "AxzP9eDSXgCKObuTISzrfGPmy0tzwLepXbTSeLrLyKY7"
                 },
                 "mode_info": {
                   "single": {
@@ -392,10 +397,11 @@
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
-            }
+            },
+            "tip": null
           },
           "signatures": [
-            "Q4RIZY/sCfTr/tsZw9DYkNFovXcRgd85yQvnvC0Cr70Iios9YMjgz64n4FTw3REqYOh/u9xTiMqsJlVNrshJmw=="
+            "mievyZDWi1Wp0E6s4APwz/dg0Fo36vtZWMeod3VsH4AadwYr8tgUA6zFqbJC+tEUslzSN8AmW2t+ojPV6H2p1w=="
           ]
         }
       ]
@@ -420,8 +426,18 @@
       },
       "votes": [],
       "voting_params": {
-        "voting_period": "172800000000000ns"
+        "voting_period": "43200000000000ns"
       }
+    },
+    "group": {
+      "group_members": [],
+      "group_policies": [],
+      "group_policy_seq": "0",
+      "group_seq": "0",
+      "groups": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
     },
     "ibc": {
       "channel_genesis": {
@@ -474,7 +490,9 @@
         "active_channels": [],
         "interchain_accounts": [],
         "params": {
-          "allow_messages": [],
+          "allow_messages": [
+            "*"
+          ],
           "host_enabled": true
         },
         "port": "icahost"
@@ -483,7 +501,7 @@
     "mint": {
       "minter": {
         "annual_provisions": "0.000000000000000000",
-        "inflation": "0.000000000000000000"
+        "inflation": "0.020000000000000000"
       },
       "params": {
         "blocks_per_year": "6311520",
@@ -496,6 +514,10 @@
     },
     "nft": {
       "collections": []
+    },
+    "nonfungibletokentransfer": {
+      "port_id": "nft",
+      "traces": []
     },
     "params": null,
     "slashing": {
@@ -519,6 +541,7 @@
         "historical_entries": "10000",
         "max_entries": "7",
         "max_validators": "100",
+        "min_commission_rate": "0.000000000000000000",
         "unbonding_time": "2419200000000000ns"
       },
       "redelegations": [],

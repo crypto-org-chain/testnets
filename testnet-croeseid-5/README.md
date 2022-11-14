@@ -1,6 +1,6 @@
 # testnet-croeseid-5
 
-- chain-maind version: [v4.0.0-alpha3-croeseid](https://github.com/crypto-org-chain/chain-main/releases/tag/v4.0.0-alpha3-croeseid)
+- chain-maind version: [v4.1.0-croeseid](https://github.com/crypto-org-chain/chain-main/releases/tag/v4.1.0-croeseid)
 - Seeds nodes:
 ```
 71d2a4727bf574d5d368c343e37edff00cd556b1@13.215.245.208:26656
